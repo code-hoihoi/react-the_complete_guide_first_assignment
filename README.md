@@ -1,6 +1,28 @@
+## React - The Complete Guide 
+### 課題 \#1
+
+Udemyで提供されているコース「[React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)」の1つ目の課題です。
+
+インストラクターから実装すべきタスクをリストアップされ、それらを独力で実装しました。  
+したがって、100%自走して書いたJavaScript/Reactのコードを格納したリポジトリとなり、コース内で提供されている模範解答のコードとは別物となります。
+
+実装したタスクは以下のとおり。
+1. 2つの新しいコンポーネント(UserInputとUserOutput)を定義する
+2. UserInputコンポーネントはテキストの入力要素を、UserOutputコンポーネントは2つの\<p\>要素を持つように定義する
+3. 2番で定義したUserOutputコンポーネントを使用し、複数のUserOutputコンポーネントをレンダリングする
+4. Appコンポーネントにstateを追加し、UserOutputにprops引数として渡し、UserOutputコンポーネント上でそのテキストを表示する  
+5. Appコンポーネントに新たなメソッドを定義し、UserInputに入力されたテキストをAppコンポーネントのstateに反映する処理を加える
+6. 5番のタスクを行うために、AppコンポーネントからUserInputコンポーネントにprops引数としてメソッドのリファレンス(参照)を渡す
+7. UserInputコンポーネントで入力した値が既存のUserOutputのテキスト内容を上書きするように処理を行う
+8. 双方向bindingの処理をUserInputコンポーネントに追加し、初期値をUserInputのテキスト値として設定し、表示する
+9. cssによるスタイル処理を各コンポーネント及び要素に追加する
+　
+
+## React - The Complete Guide 
+### The First Assignment
 This is the first assignment from React - The Complete Guide(incl Hooks, React Router, Redux).
 The course link is https://www.udemy.com/course/react-the-complete-guide-incl-redux/
-The code presented here is 100% my own work. No copy from other resources or no imitation of tutorials.
+The code presented here is 100% my own work. It is neither a copy from other resources nor follow-and-code tutorials.
 
 The assignment instruction is below.
 
