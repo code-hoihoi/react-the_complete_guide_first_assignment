@@ -13,7 +13,7 @@ const user_input = ( props ) => {
     return(
         <div style={myStyle}>
             <span id='inputlabel'>Your Input: </span>
-            <input type='text' onChange={props.changed} />
+            <input type='text' onChange={props.changed} value={props.val}/>
         </div>
     )
 }
