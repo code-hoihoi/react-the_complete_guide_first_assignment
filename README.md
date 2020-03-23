@@ -4,7 +4,8 @@
 Udemyで提供されているコース「[React - The Complete Guide](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)」の1つ目の課題です。
 
 インストラクターから実装すべきタスクをリストアップされ、それらを独力で実装しました。  
-したがって、100%自走して書いたJavaScript/Reactのコードを格納したリポジトリとなり、コース内で提供されている模範解答のコードとは別物となります。
+したがって、100%自走して書いたJavaScript/Reactのコードを格納したリポジトリとなり、コース内で提供されている模範解答のコードとは別物となります。  
+この「課題 #1」はReactの最も基礎的な部分の理解を目的としています。
 
 実装したタスクは以下のとおり。
 1. 2つの新しいコンポーネント(UserInputとUserOutput)を定義する
@@ -15,7 +16,7 @@ Udemyで提供されているコース「[React - The Complete Guide](https://ww
 6. 5番のタスクを行うために、AppコンポーネントからUserInputコンポーネントにprops引数としてメソッドのリファレンス(参照)を渡す
 7. UserInputコンポーネントで入力した値が既存のUserOutputのテキスト内容を上書きするように処理を行う
 8. 双方向bindingの処理をUserInputコンポーネントに追加し、初期値をUserInputのテキスト値として設定し、表示する
-9. cssによるスタイル処理を各コンポーネント及び要素に追加する
+9. CSSによるスタイル処理を各コンポーネント及び要素に追加する
 　
 
 ## React - The Complete Guide 
